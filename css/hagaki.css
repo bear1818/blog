@@ -1,0 +1,32 @@
+body{
+    background-color: white;
+    font-family: "HGP行書体";
+    text-shadow: white;
+    font-size: 100px;
+}
+#hagaki_area{
+    background: linear-gradient(#05FBFF, #1E00FF);
+    width: 500px;
+    height: 666px;
+    border: solid;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+#message{
+    padding-left: 400px;
+    writing-mode: vertical-rl;
+}
+
+#icon{
+    
+}
+
+.animation {
+	padding-left:0px;
+	animation: animation-haniwaman 3s linear 0s infinite normal;
+}
+@keyframes animation-haniwaman {
+	0% {padding-left: 0px;}
+	100% {padding-left: 500px;}
+}
